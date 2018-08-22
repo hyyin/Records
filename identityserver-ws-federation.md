@@ -6,6 +6,8 @@
 
 * [Authenticate users with WS-Federation in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/ws-federation?view=aspnetcore-2.1)
 
+* [Introduction to Identity on ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.1&tabs=visual-studio#next-steps)
+
 ---
 思路：
 * [signin_external_providers](https://identityserver4.readthedocs.io/en/release/topics/signin_external_providers.html)
