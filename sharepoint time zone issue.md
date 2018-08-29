@@ -8,3 +8,18 @@ reason，前台发送utc时间，server端重新转成local时间（这地方有
 
 sharepoint column 时间赋值的逻辑非常迷乱
 
+===========================================================
+
+solution: 传递前端 年月日 时间，绕开浏览器时区和server时区之间的转换，直接构造时间
+
+===================================================
+
+Reservation site CI 处理方法：
+
+激活publishing feature， 激活site collection column feature， 将term import到site collection 级别term store，将resoure termset id 添到configuration文件中再激活site 级别feature，
+
+访问_layouts/15/Reservation/Pages/Reservation.aspx
+
+==========================================
+
+遇到一个term column串行问题，开发环境无法重现，无奈用jquery hack ，去掉样式解决
