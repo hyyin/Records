@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/19761241/window-close-and-self-close-do-not-close-the-window-in-chrome

@@ -1,0 +1,5 @@
+Session timeout 问题，
+
+本地环境不重新，
+
+session timeout 小于30分钟也不重现

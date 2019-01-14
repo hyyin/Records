@@ -8,6 +8,8 @@ UseCors();
 
 services.AddCustomAPIIdentity(Configuration, ApiResourceConstants.LCMSAPI);
 
+添加 authscope
+
 添加 api resource
 
 修改 identity server api resource + GetApiResources
